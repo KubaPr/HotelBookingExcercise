@@ -5,6 +5,28 @@ VisualStudioVersion = 15.0.26228.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBooking", "HotelBookingExcercise\ConsoleBooking.csproj", "{BD646936-594C-48F1-98A8-49E84F3FAEC5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{79117036-FACF-4A7D-BC20-DF423A0D3F7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelPriceProviderTests", "HotelsManagerTests\HotelPriceProviderTests.csproj", "{8B2F5EF1-EBE3-4527-80C7-919B601B171B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelsPriceProvider", "HotelsPriceProvider\HotelsPriceProvider.csproj", "{E762E65A-056B-4FB6-A17D-797BED16526D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingSystem", "BookingSystem\BookingSystem.csproj", "{2D643227-AFE5-43D6-99DB-4DAC736A4FAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingSystemTests", "BookingSystemTests\BookingSystemTests.csproj", "{00C4DE7B-650F-430C-B899-ED0649C7693F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentSystem", "PaymentSystem\PaymentSystem.csproj", "{050D5ADA-F6AA-4229-B8F9-D8CDE747C321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentSystemTests", "PaymentSystemTests\PaymentSystemTests.csproj", "{2A3C08EC-E316-422A-A1ED-6DE2C33BC897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSender", "EmailSender\EmailSender.csproj", "{A10C0759-78B6-48C1-82D9-C5DB4A24C5FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSenderTests", "EmailSenderTests\EmailSenderTests.csproj", "{B9A513FD-2157-4B76-81F6-0C87B39E3579}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelBookingManager", "HotelBookingManager\HotelBookingManager.csproj", "{5812A4F2-B0DE-454D-A46A-4E3D5071AB4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelBookingManagerTests", "HotelBookingOperationsManagerTests\HotelBookingManagerTests.csproj", "{04DE31C4-61B2-4BBA-9915-F6160B949013}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +37,55 @@ Global
 		{BD646936-594C-48F1-98A8-49E84F3FAEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD646936-594C-48F1-98A8-49E84F3FAEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD646936-594C-48F1-98A8-49E84F3FAEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B2F5EF1-EBE3-4527-80C7-919B601B171B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B2F5EF1-EBE3-4527-80C7-919B601B171B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B2F5EF1-EBE3-4527-80C7-919B601B171B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B2F5EF1-EBE3-4527-80C7-919B601B171B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E762E65A-056B-4FB6-A17D-797BED16526D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E762E65A-056B-4FB6-A17D-797BED16526D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E762E65A-056B-4FB6-A17D-797BED16526D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E762E65A-056B-4FB6-A17D-797BED16526D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D643227-AFE5-43D6-99DB-4DAC736A4FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D643227-AFE5-43D6-99DB-4DAC736A4FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D643227-AFE5-43D6-99DB-4DAC736A4FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D643227-AFE5-43D6-99DB-4DAC736A4FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C4DE7B-650F-430C-B899-ED0649C7693F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C4DE7B-650F-430C-B899-ED0649C7693F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C4DE7B-650F-430C-B899-ED0649C7693F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C4DE7B-650F-430C-B899-ED0649C7693F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{050D5ADA-F6AA-4229-B8F9-D8CDE747C321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{050D5ADA-F6AA-4229-B8F9-D8CDE747C321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{050D5ADA-F6AA-4229-B8F9-D8CDE747C321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{050D5ADA-F6AA-4229-B8F9-D8CDE747C321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A3C08EC-E316-422A-A1ED-6DE2C33BC897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A3C08EC-E316-422A-A1ED-6DE2C33BC897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A3C08EC-E316-422A-A1ED-6DE2C33BC897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A3C08EC-E316-422A-A1ED-6DE2C33BC897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A10C0759-78B6-48C1-82D9-C5DB4A24C5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A10C0759-78B6-48C1-82D9-C5DB4A24C5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A10C0759-78B6-48C1-82D9-C5DB4A24C5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A10C0759-78B6-48C1-82D9-C5DB4A24C5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A513FD-2157-4B76-81F6-0C87B39E3579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A513FD-2157-4B76-81F6-0C87B39E3579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A513FD-2157-4B76-81F6-0C87B39E3579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A513FD-2157-4B76-81F6-0C87B39E3579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5812A4F2-B0DE-454D-A46A-4E3D5071AB4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5812A4F2-B0DE-454D-A46A-4E3D5071AB4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5812A4F2-B0DE-454D-A46A-4E3D5071AB4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5812A4F2-B0DE-454D-A46A-4E3D5071AB4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04DE31C4-61B2-4BBA-9915-F6160B949013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04DE31C4-61B2-4BBA-9915-F6160B949013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04DE31C4-61B2-4BBA-9915-F6160B949013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04DE31C4-61B2-4BBA-9915-F6160B949013}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B2F5EF1-EBE3-4527-80C7-919B601B171B} = {79117036-FACF-4A7D-BC20-DF423A0D3F7B}
+		{00C4DE7B-650F-430C-B899-ED0649C7693F} = {79117036-FACF-4A7D-BC20-DF423A0D3F7B}
+		{2A3C08EC-E316-422A-A1ED-6DE2C33BC897} = {79117036-FACF-4A7D-BC20-DF423A0D3F7B}
+		{B9A513FD-2157-4B76-81F6-0C87B39E3579} = {79117036-FACF-4A7D-BC20-DF423A0D3F7B}
+		{04DE31C4-61B2-4BBA-9915-F6160B949013} = {79117036-FACF-4A7D-BC20-DF423A0D3F7B}
 	EndGlobalSection
 EndGlobal
