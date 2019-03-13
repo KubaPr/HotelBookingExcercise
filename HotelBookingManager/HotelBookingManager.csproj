@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookingSystem\BookingSystem.csproj" />
+    <ProjectReference Include="..\EmailSender\EmailSender.csproj" />
+    <ProjectReference Include="..\HotelsPriceProvider\HotelsPriceProvider.csproj" />
+    <ProjectReference Include="..\PaymentSystem\PaymentSystem.csproj" />
+  </ItemGroup>
+
+</Project>
